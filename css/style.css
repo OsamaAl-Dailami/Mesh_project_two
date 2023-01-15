@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Cairo:wght@400;500&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    padding: 0 16px;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-section img{
+    width: 45%;
+    padding-left: 15px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+.center form{
+    display: flex;
+    height: 42px;
+    width: 628px;
+}
+
+.center form input{
+    width: 100%;
+    border-radius: 4px 0 0 4px;
+    padding: 10px;
+    font-size: 1.6 rem;
+    border: 1px solid #d3d3d3;
+}
+
+.center form button{
+    width: 65px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #d3d3d3;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    padding-top: 4px;
+}
+
+.center form button:hover{
+    width: 65px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #d3d3d3;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    padding-top: 4px;
+}
+
+.center .mic{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.right-section a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* End Header */
+
+/* Start Contant Area */
+.contant-area{
+    /* height: calc(100vh - 55px); */
+    display: flex;
+    background-color: #f8f8f8;  
+}
+
+.contant-area .sidebar{
+    height: 100%;
+    width: 280px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+/* Start Side bar */
+
+nav{
+    width: 100%;
+    flex-direction: column;
+    margin: 15px;
+    padding-left: 15px;
+}
+
+nav .nav-link{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+nav .nav-link:hover{
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.nav-link span{
+    margin-left: 25px;
+    font-size: 0.6 rem;
+    line-height: 2em;
+    font-weight: 600;
+    color: black;
+}
+
+.active{
+    background-color: #efefef;
+}
+
+hr{
+    margin: 10px 0;
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+}
+
+nav p{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #808080
+}
+
+/* End Side bar */
+
+
+
+/* End Contant Area */
+
+.card{
+    height: 250px;
+    margin: 10px 0 0 0;     
+    border: none;
+}
+.card .card-img-top{
+    height: 200px;
+}
+
+.card-body-icon{    
+    display: inline-block;   
+    margin-right: 10px;
+    margin-bottom: 40px;
+
+}
+
+
+.card-body-contant{
+    height: 100%;
+    display: inline-block;
+}
+
+.card-body-contant p{
+    margin: 0;
+}
+
+
+
+
+
+
